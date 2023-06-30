@@ -4,7 +4,7 @@
 #include <limits>
 #include <queue>
 
-//flight segments
+//flight segments bfs
 using std::vector;
 using std::queue;
 using std::numeric_limits;
