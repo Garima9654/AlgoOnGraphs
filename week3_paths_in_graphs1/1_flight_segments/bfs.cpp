@@ -2,7 +2,6 @@
 #include <vector>
 #include <queue>
 #include <limits>
-#include <queue>
 
 //flight segments bfs
 using std::vector;
