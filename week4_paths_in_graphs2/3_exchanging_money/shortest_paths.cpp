@@ -59,7 +59,7 @@ int main() {
     cost[x - 1].push_back(w);
   }
   std::cin >> s;
-  s--; y++;
+  s--; 
   vector<long long> distance(n, std::numeric_limits<long long>::max());
   vector<int> reachable(n, 0);
   vector<int> shortest(n, 1);
