@@ -56,7 +56,6 @@ int main() {
     int x, y, w;
     std::cin >> x >> y >> w;
     adj[x - 1].push_back(y - 1);
-	  q.push(v);
     cost[x - 1].push_back(w);
   }
   std::cin >> s;
