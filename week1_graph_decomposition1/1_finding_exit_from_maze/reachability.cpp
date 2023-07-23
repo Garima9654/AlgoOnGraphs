@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector >
+#include <vector>
 
 using std::vector;
 using std::pair;
