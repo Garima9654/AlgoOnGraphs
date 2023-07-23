@@ -36,6 +36,7 @@ int main() {
 	// adjacency list
     adj[x - 1].push_back(y - 1);
     adj[y - 1].push_back(x - 1);
+	 return explore(adj, x, y, visited)
   }
   int x, y;
   std::cin >> x >> y;
