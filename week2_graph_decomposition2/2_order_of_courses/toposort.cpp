@@ -33,8 +33,6 @@ int main() {
     int x, y;
     std::cin >> x >> y;
     adj[x - 1].push_back(y - 1);
-	    dfs(adj, used, order, adj[x][i]);
-  }
   }
   vector<int> order = toposort(adj);
   for (size_t i = 0; i < order.size(); i++) {
