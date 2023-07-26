@@ -3,7 +3,7 @@
 #include <iomanip>
 #include <cassert>
 #include <vector>
-#include <cmath>
+
 
 using std::vector;
 using std::pair;
