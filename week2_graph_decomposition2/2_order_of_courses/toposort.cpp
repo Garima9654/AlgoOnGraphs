@@ -2,8 +2,8 @@
 #include <algorithm>
 #include <vector>
 
-using std::vector;
-using std::pair;
+using std::vector; 
+ using std::pair;
 
 void dfs(vector<vector<int> > &adj, vector<int> &used, vector<int> &order, int x) {
   used[x] = 1;
