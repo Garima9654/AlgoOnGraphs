@@ -35,7 +35,6 @@ void shortest_paths(vector<vector<int> > &adj, vector<vector<int> > &cost, int s
 	visited[u] = 1;
 // 	if(u != s)
 	shortest[u] = 0;
-	  	q.pop();
 	for (int i = 0; i < adj[u].size(); i++) {
 	  int v = adj[u][i];
       if (!visited[v]) {
