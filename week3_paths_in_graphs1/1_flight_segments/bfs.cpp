@@ -48,9 +48,6 @@ int distance(vector<vector<int> > &adj, int s, int t) {
     return dist[t];
   }
 
-if(dist[v] == numeric_limits<int>::max()) {
-		queue.push(v);
-		dist[v] = dist[u] + 1;
   
   return -1;
 }
