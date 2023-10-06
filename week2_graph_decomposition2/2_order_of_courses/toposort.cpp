@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#include <vector>
+ #include <vector>
 
 using std::vector; 
  using std::pair;
