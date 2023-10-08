@@ -31,7 +31,7 @@ int distance(vector<vector<int> > &adj, vector<vector<int> > &cost, int s, int t
   while(!pq.empty()) {
 	Node u = pq.top();
 	pq.pop();
-	int u_index = u.index;
+	int u_index = u.index; 
     for (int i = 0; i < adj[u_index].size(); i++) {
 	  int v = adj[u_index][i];
 	  if(dist[v] > dist[u_index] + cost[u_index][i]) {
