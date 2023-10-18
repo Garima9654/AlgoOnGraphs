@@ -15,7 +15,7 @@ int bipartite(vector<vector<int> > &adj) {
       while (!q.empty()) {
         int u = q.front();
         q.pop();
-        for (int v : adj[u]) {
+        for (int v : adj[u]) { 
           if (color[v] == -1) { // not yet colored
             q.push(v);
             color[v] = 1 - color[u]; // assign opposite color to v
