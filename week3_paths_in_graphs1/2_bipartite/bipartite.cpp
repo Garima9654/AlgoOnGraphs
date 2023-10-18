@@ -6,7 +6,7 @@ using std::vector;
 using std::queue;
 
 int bipartite(vector<vector<int> > &adj) {
-  vector<int> color(adj.size(), -1); // initialize color to -1 (unassigned)
+  vector<int>color(adj.size(), -1); // initialize color to -1 (unassigned)
   queue<int> q;
   for (int s = 0; s < adj.size(); s++) {
     if (color[s] == -1) { // not yet colored
