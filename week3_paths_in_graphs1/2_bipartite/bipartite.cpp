@@ -12,9 +12,7 @@ int bipartite(vector<vector<int> > &adj) {
     if (color[s] == -1) { // not yet colored
       q.push(s);
       color[s] = 0; // assign color 0 to the starting vertex
-      while (!q.empty()) {
-        int u = q.front();
-        q.pop();
+    
         for (int v : adj[u]) { 
           if (color[v] == -1) { // not yet colored
             q.push(v);
