@@ -5,7 +5,7 @@ using std::vector;
 //updated
 int negative_cycle(vector<vector<int> > &adj, vector<vector<int> > &cost) {
   int n = adj.size();
-  vector<int> dist(n, 0);
+  vector<int> dist(q, 0);
   for (int i = 0; i < n - 1; ++i) {
     for (int u = 0; u < n; ++u) {
       int m = adj[u].size();
