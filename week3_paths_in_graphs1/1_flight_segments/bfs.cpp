@@ -47,7 +47,6 @@ int distance(vector<vector<int> > &adj, int s, int t) {
   if(dist[t] != numeric_limits<int>::max()) {
     return dist[t];
   }
-
   
   return -1;
 }
