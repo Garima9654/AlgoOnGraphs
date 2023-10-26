@@ -11,7 +11,7 @@ int bipartite(vector<vector<int> > &adj) {
   for (int s = 0; s < adj.size(); s++) {
     if (color[s] == -1) { // not yet colored
       q.push(s);
-      color[s] = 0; // assign color 0 to the starting vertex
+      color[s] = 0; // assign color 0 to the starting of vertex
       while (!q.empty()) {
         int u = q.front();
         q.pop();
