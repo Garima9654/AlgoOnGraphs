@@ -30,7 +30,7 @@ int bipartite(vector<vector<int> > &adj) {
 }
 
 int main() {
-  int n, m;
+  int n,  m; 
   std::cin >> n >> m;
   vector<vector<int> > adj(n, vector<int>());
   for (int i = 0; i < m; i++) {
