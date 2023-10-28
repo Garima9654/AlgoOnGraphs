@@ -32,7 +32,7 @@ struct edge {
   }
 };
 
-bool cmp(edge a, edge b) {
+bool cmp(edge a, edge b, edge c) {
   return a.weight < b.weight;
 }
 
