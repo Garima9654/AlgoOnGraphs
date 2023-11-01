@@ -9,7 +9,7 @@ void dfs(vector<vector<int> > &adj, vector<int> &used, vector<int> &order, int x
   used[x] = 1;
   for (int i = 0; i < adj[x].size(); i++) {
 	if(!used[adj[x][i]])
-	  dfs(adj, used, order, adj[x][i]);
+	  dfs(adj, used, , adj[x][i]);
   }
   order.insert(order.begin(), x);
 }     
