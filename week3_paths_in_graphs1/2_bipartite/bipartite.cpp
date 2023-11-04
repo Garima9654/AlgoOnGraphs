@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-// bipartite 
+// bipartite in this code
 using std::vector;
 using std::queue;
 
