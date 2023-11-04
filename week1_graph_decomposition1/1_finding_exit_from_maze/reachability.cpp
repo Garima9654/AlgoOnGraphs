@@ -2,7 +2,7 @@
 #include <vector>
 
 using std::vector;
-using std::pair;
+using std::pair; 
 
 int explore(vector<vector<int> > &adj, int x, int y, vector<int> &visited) {
 	if (x == y) {
