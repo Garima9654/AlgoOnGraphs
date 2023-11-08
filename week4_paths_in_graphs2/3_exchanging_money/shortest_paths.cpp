@@ -12,7 +12,7 @@ void shortest_paths(vector<vector<int> > &adj, vector<vector<int> > &cost, int s
   //write your code here
   reachable[s] = 1;
   distance[s] = 0;
-  queue<int> q;
+  queue<int> q; 
   for (int i = 0; i < adj.size(); i++) {
     for (int u = 0; u < adj.size(); u++){
       for (int k = 0; k < adj[u].size(); k++) {
