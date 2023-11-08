@@ -25,7 +25,7 @@ int distance(vector<vector<int> > &adj, int s, int t) {
   // Create a queue for BFS
   queue<int> queue;
   
-  // Enqueue the current node
+  // Enqueue the current node here
   queue.push(s);
   
   while(!queue.empty()) {
