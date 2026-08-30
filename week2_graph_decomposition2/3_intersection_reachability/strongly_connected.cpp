@@ -6,6 +6,8 @@
 using std::vector;
 using std::pair;
 using std::stack;
+using std::sort;
+using std::reverse;
 
 vector<vector<int> > reverseEdges(vector<vector<int> > &adj){
 	vector<vector<int> > rAdj(adj.size(), vector<int>());
