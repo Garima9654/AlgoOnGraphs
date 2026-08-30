@@ -3,6 +3,8 @@
 
 using std::vector;
 using std::pair;
+using std::sort;
+using std::reverse;
 
 void explore(vector<vector<int> > &adj, int x, vector<int> &visited) {
 	visited[x] = 1;
